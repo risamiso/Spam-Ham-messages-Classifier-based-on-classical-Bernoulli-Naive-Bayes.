@@ -26,4 +26,5 @@ $$
 {\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 0\) + 2}
 $$
 
-$P(y = 1 \mid x)$ is a probability of message being spam.
+$P(y = 1 \mid x)$ is a probability of message being spam.  
+m
