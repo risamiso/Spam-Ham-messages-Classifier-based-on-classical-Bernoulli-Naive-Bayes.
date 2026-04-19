@@ -4,9 +4,9 @@ This is an AI model that can tell if the text message is spam or not.
 How it works:  
 It determines whether a message is spam based on the words it contains.  
 First, it's trained on a dataset of messages labeled as “spam” or “ham”. From this data, it learns:  
-1.how often spam occurs overall => $phi_{y}$  
+1.how often spam occurs overall => $\phi_{y}$  
 2.a vector of probabilities for each word, where each value represents how likely that word appears in spam messages => $phi_{j|1}$  
-3.a similar set of probabilities for non-spam messages => $phi_{j|0}$  
+3.a similar set of probabilities for non-spam messages => $\phi_{j|0}$  
 This means the model stores values like “probability that the word ‘free’ appears in spam” or “probability that ‘meeting’ appears in non-spam.” These probabilities are often written as φⱼ|y, meaning the probability of word j given a class y (spam or not spam).
 
 When a new message comes in, the classifier looks at all the words in it and uses these learned probabilities to estimate how likely the message is to be spam. It combines the overall probability of spam and the probabilities of each word appearing in spam.  
