@@ -46,4 +46,4 @@ $P(y = 1 \mid x)$ is a probability of message being spam.
 $m$ - number of messages.  
 $n$ - number of words in vector of probabilities.  
 $y=1$ - spam  
-$x_j^{(i)}$ - word is in message 
+$x_j^{(i)}$ - word j appears in the message i
