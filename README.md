@@ -40,11 +40,16 @@ $$
 \phi_{j \mid y=0} =
 \frac{\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 0, x_j^{(i)} = 1\) + 1}
 {\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 0\) + 2}
-$$
+$$  
+In much simpler terms. $ß
 
 $P(y = 1 \mid x)$ is a probability of message being spam.  
 1(...) - indicator function that returns 1 if statement is true and 0 otherwise.  
 $m$ - number of messages.  
 $n$ - number of words in vector of probabilities.  
 $y=1$ - spam  
-$x_j^{(i)}$ - word j appears in the message i
+$x_j^{(i)}$ - word j appears in the message i  
+$\phi_{y}$ - overall probability of message being spam  
+$\phi_{j|1}$ - probability of word j being in spam message  
+$\phi_{j|0}$ - probability of word j being in ham message
+In much simpler words: $\phi_y$ is an amount of spam messages divided by the overall amount of messages. Then you create a dictionary out of words you see in training data and write the probability of them appearing in spam/ham messages. Each $\phi_{j|1}$ is 
