@@ -27,4 +27,4 @@ $$
 $$
 
 $P(y = 1 \mid x)$ is a probability of message being spam.  
-$m$
+$m$ - number of messages
