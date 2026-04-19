@@ -15,7 +15,8 @@ It makes a simplifying assumption that all words are independent of each other (
 
 In practice, it often uses logarithms instead of multiplying probabilities directly, to avoid numerical issues.
 
-The classifier uses a learned table (or vector) of word probabilities to measure how strongly the words in a message indicate spam, and picks the more likely category.
+The classifier uses a learned table (or vector) of word probabilities to measure how strongly the words in a message indicate spam, and picks the more likely category.  
+
 $P(y = 1 \mid x) = \frac{1}{1 + e^{B - A}}$  
 
   
