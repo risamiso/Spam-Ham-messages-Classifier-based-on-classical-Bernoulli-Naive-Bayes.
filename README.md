@@ -2,7 +2,7 @@
 
 This is an AI model that can tell if the text message is spam or not.  
 It uses classical Bernoulli Naive Bayes that has following formulas:  
-$P(y = 1 \mid x) = \frac{1}{1 + e^{B - A}}$
+$P(y = 1 \mid x) = \frac{1}{1 + e^{B - A}}$  
 
   
 $$
@@ -11,7 +11,7 @@ $$
 $$
 B = \log(1 - \phi_y) + \sum_{j=1}^{n} \left[ x_j \log(\phi_{j|0}) + (1 - x_j)\log(1 - \phi_{j|0}) \right]
 $$  
-where  
+In NB for spam classification we use a vector phi$phi_{j|0}$ is a vector 
 $$
 \phi_y = \frac{1}{m} \sum_{i=1}^{m} \mathbb{1}(y^{(i)} = 1)
 $$  
