@@ -52,4 +52,4 @@ $x_j^{(i)}$ - word j appears in the message i
 $\phi_{y}$ - overall probability of message being spam  
 $\phi_{j|1}$ - probability of word j being in spam message  
 $\phi_{j|0}$ - probability of word j being in ham message
-In much simpler words: $\phi_y$ is an amount of spam messages divided by the overall amount of messages. Then you create a dictionary out of words you see in training data and write the probability of them appearing in spam/ham messages. Each $\phi_{j|1}$ is 
+In much simpler words: $\phi_y$ is an amount of spam messages divided by the overall amount of messages. Then you create a dictionary out of words you see in training data and write the probability of them appearing in spam/ham messages. Each $\phi_{j|1}$ is amount of times this word appeared in spam messages divided by amount of spam messages in data set. And for each $\phi_{j|0}$, amount of times this word appeared in ham messages divided by amount of ham messages. after calculating all that plug it into the formula and you have the probability of message being spam.
