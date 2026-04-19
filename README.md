@@ -12,4 +12,8 @@ $$
 B = \log(1 - \phi_y) + \sum_{j=1}^{n} \left[ x_j \log(\phi_{j|0}) + (1 - x_j)\log(1 - \phi_{j|0}) \right]
 $$  
 
+$$
+\phi_y = \frac{1}{m} \sum_{i=1}^{m} \mathbf{1}\{y^{(i)} = 1\}
+$$
+
 $P(y = 1 \mid x)$ is a probability of message being spam.
