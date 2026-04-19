@@ -27,7 +27,7 @@ $$
 $$
 B = \log(1 - \phi_y) + \sum_{j=1}^{n} \left[ x_j \log(\phi_{j|0}) + (1 - x_j)\log(1 - \phi_{j|0}) \right]
 $$  
-In NB for spam classification we use a vector phi$phi_{j|0}$ is a vector 
+  
 $$
 \phi_y = \frac{1}{m} \sum_{i=1}^{m} \mathbb{1}(y^{(i)} = 1)
 $$  
@@ -43,6 +43,7 @@ $$
 $$
 
 $P(y = 1 \mid x)$ is a probability of message being spam.  
+1(...) - indicator function that returns 1 if statement is true and 0 otherwise.  
 $m$ - number of messages.  
 $n$ - number of words in vector of probabilities.  
 $y=1$ - spam  
