@@ -10,5 +10,5 @@ $$
 A = \log(\phi_y) + \sum_{j=1}^{n} \left[ x_j \log(\phi_{j|1}) + (1 - x_j)\log(1 - \phi_{j|1}) \right]
 $$  
 $$
-B = \log(1 - \phi_y) + \sum_{j=1}^{n} \left[ x_j \log(\phi_{j|1}) + (1 - x_j)\log(1 - \phi_{j|1}) \right]
+B = \log(1 - \phi_y) + \sum_{j=1}^{n} \left[ x_j \log(\phi_{j|0}) + (1 - x_j)\log(1 - \phi_{j|0}) \right]
 $$  
