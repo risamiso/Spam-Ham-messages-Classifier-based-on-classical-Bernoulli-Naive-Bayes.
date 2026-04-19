@@ -18,7 +18,7 @@ $$
 $$
 \phi_{j \mid y=1} =
 \frac{\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 1, x_j^{(i)} = 1\) + 1}
-{\sum_{i=1}^{m} \mathbb{1}\{y^{(i)} = 1\} + 2}
+{\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 1\) + 2}
 $$
 
 $P(y = 1 \mid x)$ is a probability of message being spam.
