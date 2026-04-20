@@ -44,8 +44,7 @@ $$
 {\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 0\) + 2}
 $$  
   
-In much simpler terms. $ß
-
+There's +1 and +2 in calculating both $\phi$'s to avoid dividing by 0 error. This method is called Laplace Smoothing.
 $P(y = 1 \mid x)$ is a probability of message being spam.  
 1(...) - indicator function that returns 1 if statement is true and 0 otherwise.  
 $m$ - number of messages.  
