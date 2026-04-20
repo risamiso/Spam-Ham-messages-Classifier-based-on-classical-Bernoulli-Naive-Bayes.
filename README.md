@@ -43,6 +43,7 @@ $$
 \frac{\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 0, x_j^{(i)} = 1\) + 1}
 {\sum_{i=1}^{m} \mathbb{1}\(y^{(i)} = 0\) + 2}
 $$  
+  
 In much simpler terms. $ß
 
 $P(y = 1 \mid x)$ is a probability of message being spam.  
