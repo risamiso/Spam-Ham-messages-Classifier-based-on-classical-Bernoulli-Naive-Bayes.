@@ -1,10 +1,3 @@
-
-#4. split into data into training and testing one(optional)................................1
-#5. visualized top 15 spam/ham words(interesting)..........................................1
-#12. after all preparations look top 15 words again........................................1
-#13. remove all empty messages that are left after all these procedures....................0
-#14. DONE!
-
 import pandas as pd #for reading .csv files
 import matplotlib.pyplot as plt #for barchart
 import heapq  #for taking greatest value from dictionary, to make lists with top words for barchart
